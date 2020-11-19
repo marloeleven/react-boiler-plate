@@ -16,7 +16,7 @@ import { ConnectedRouter } from 'connected-react-router';
 ReactDOM.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Provider store={store}>
           <ConnectedRouter history={history}>
             <Suspense fallback={<Loader />}>
