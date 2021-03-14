@@ -1,6 +1,6 @@
 # React Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It uses `redux-observable` to maintain global state logic and for handling asynchronous task with the help of `rxjs` utilities. For design concerns, this project utilizes components from `material-ui` and `reakit` , `tailwindcss` is also the choice
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Libraries used:
 
