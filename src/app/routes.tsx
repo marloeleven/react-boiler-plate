@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import Home from 'containers/home';
+import Home from 'features/home/home';
 
 interface IPage {
   exact?: boolean;

@@ -7,14 +7,18 @@ declare global {
   }
 }
 
-export type userId = string;
+// add T suffix for types
+export type TAccountId = number;
 
-export interface UserInfo {
-  name: string;
-  type: UserType;
-}
-
-export enum UserType {
+// add E suffix for enums
+export enum EUserType {
   ADMIN = 'admin',
   USER = 'user',
+}
+
+// add I suffix for interfaces
+export interface IAccount {
+  id: TAccountId;
+  name: string;
+  type: EUserType;
 }
